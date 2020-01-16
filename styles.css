@@ -1,7 +1,9 @@
 
 img {
-	max-width:100%;
+	width:100%;
+	height: auto;
 }
+
 
 .wrapper {
 	display: grid;
@@ -13,6 +15,7 @@ img {
 	grid-gap: 0px;
 	grid-template-areas:
 		'left right';
+	grid-template-rows: 600px;
 }
 
 /* Control the left side */
