@@ -1,0 +1,38 @@
+
+img {
+	max-width:100%;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 0px;
+}
+
+.split {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-areas:
+		'left right';
+}
+
+/* Control the left side */
+.left {
+	grid-area: left;
+}
+
+
+/* COntrol the right side */
+.right {
+	grid-area: right;
+}
+
+
+
+@media(max-width: 600px) {
+	.split{
+		grid-template-areas:
+			'left'
+			'right';	
+  }
+}
+
