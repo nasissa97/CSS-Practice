@@ -4,7 +4,6 @@ img {
 	object-fit: cover;
 }
 
-
 .wrapper {
 	display: grid;
 	grid-gap: 0px;
@@ -23,24 +22,27 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
+	color:rgba(255,255,255,.5);
 }
 
 /* Control the left side */
 .left {
 	display: flex;
+	position: relative;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 	grid-area: left;
 }
 
 
-/* COntrol the right side */
+/* Control the right side */
 .right {
 	display: flex;
   justify-content: center;
   align-items: center;
 	grid-area: right;
+
 }
 
 
